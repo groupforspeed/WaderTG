@@ -5,9 +5,6 @@ local function run(msg, matches)
     if is_sudo(msg) then
      --send_document(get_receiver(msg), "/home/Seed/axs/sudo.webp", ok_cb, false)
       return "You are my father"
-    elseif is_admin(msg) then
-   -- send_document(get_receiver(msg), "/home/Seed/axs/admin.webp", ok_cb, false)
-      return "You are My ADMIN"
     elseif is_owner(msg) then
    -- send_document(get_receiver(msg), "/home/Seed/axs/owner.webp", ok_cb, false)
       return "You are Group Owner"
