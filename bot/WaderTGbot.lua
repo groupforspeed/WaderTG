@@ -331,6 +331,8 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
+
+channel:@WaderTGTeam
 ]],
     help_text = [[
 Commands list :
@@ -460,6 +462,7 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
+channel:@WaderTGTeam
 ]],
 	help_text_super =[[
 SuperGroup Commands:
@@ -602,6 +605,7 @@ Returns group logs
 
 *Only owner can use res, setowner, promote, demote, and log commands
 
+channel:@WaderTGTeam
 ]],
   }
   serialize_to_file(config, './data/config.lua')
