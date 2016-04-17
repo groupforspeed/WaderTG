@@ -465,147 +465,187 @@ will return group ban list
 channel:@WaderTGTeam
 ]],
 	help_text_super =[[
-SuperGroup Commands:
+WaderTG
+Commands SuperGroup:
 
-!info
-Displays general info about the SuperGroup
+#info
+About the SuperGroup info
 
-!admins
-Returns SuperGroup admins list
+#infull
+About the you infull
 
-!owner
-Returns group owner
+#admins
+SuperGroups admins list
 
-!modlist
-Returns Moderators list
+#setadmin
+Set SuoerGroup admins
 
-!bots
-Lists bots in SuperGroup
+#owner
+Show owner of SuperGroup
 
-!who
-Lists all users in SuperGroup
+#setowner
+Set the SuoerGroup owner
 
-!block
-Kicks a user from SuperGroup
-*Adds user to blocked list*
+#modlist
+Show moderators list
 
-!ban
-Bans user from the SuperGroup
+#bots
+List bots in SuperGroup
 
-!unban
-Unbans user from the SuperGroup
+#bot[lock,unlock]
+Bot[lock,unlock] the SuoerGroup
 
-!id
-Return SuperGroup ID or user id
-*For userID's: !id @username or reply !id*
+#who
+List all users in SuperGroup
 
-!id from
-Get ID of user message is forwarded from
+#block
+kick a user from SuperGroup
++Added user to blocked list+
 
-!kickme
-Kicks user from SuperGroup
-*Must be unblocked by owner or use join by pm to return*
+#ban
+Ban user from the SuoerGroup
++Only with[id+user]+
 
-!setowner
-Sets the SuperGroup owner
+#unban
+Unban user from the SuoerGroup
++Only with[id+user]+
 
-!promote [username|id]
-Promote a SuperGroup moderator
+#id
+SuperGroup ID or user ID
++For user ID:#id @username or reply by: #id+
 
-!demote [username|id]
-Demote a SuperGroup moderator
+#id from
+Get ID of user massage is forwarded from
 
-!setname
-Sets the chat name
+#kickme
+Kick you from SuoerGroup
 
-!setphoto
-Sets the chat photo
+#promote[@username+id]
+Promote a SuoerGroup moderator
 
-!setrules
-Sets the chat rules
+#demote[@username+id]
+Demote a SuoerGroup moderator
 
-!setabout
-Sets the about section in chat info(members list)
+#setname [group name]
+Set the chat name
 
-!save [value] <text>
-Sets extra info for chat
+#setphoto
+Set the chat photo
++Then photo and send the+
 
-!get [value]
+#setrules[rules]
+Set the chat rules
+
+#setabout
+Set the chat about
+
+#save [value] <text>
+Set extra info for chat
+
+#get[value]
 Retrieves extra info for chat by value
 
-!newlink
-Generates a new group link
+#newlink
+Create group link
 
-!link
-Retireives the group link
+#link
+Group the link
 
-!rules
-Retrieves the chat rules
+#linkpv
+Send SuperGroup link private
 
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Lock group settings
-*rtl: Delete msg if Right To Left Char. is in name*
-*strict: enable strict settings enforcement (violating user will be kicked)*
+#rules
+Chat the rules
 
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Unlock group settings
-*rtl: Delete msg if Right To Left Char. is in name*
-*strict: disable strict settings enforcement (violating user will not be kicked)*
+#lock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+forward]
+Lock SuoerGroup settings
 
-!mute [all|audio|gifs|photo|video|service]
-mute group message types
-*A "muted" message type is auto-deleted if posted
+#unlock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+forward]
+Unlock SuoerGroup settings
 
-!unmute [all|audio|gifs|photo|video|service]
-Unmute group message types
-*A "unmuted" message type is not auto-deleted if posted
+#mute[all+audio+gifs+photo+video+text+service]
+Mute SuoerGroup massage types
 
-!setflood [value]
-Set [value] as flood sensitivity
+#unmute[all+audio+gifs+photo+video+text+service]
+Unmute SuoerGroup massage types
 
-!settings
-Returns chat settings
+#setflood[value]
+Set[value] as flood sensitivity
 
-!muteslist
-Returns mutes for chat
+#settins
+SuperGroup settings
 
-!muteuser [username]
-Mute a user in chat
-*If a muted user posts a message, the message is deleted automaically
-*only owners can mute | mods and owners can unmute
+#muteslist
+SuperGroup mutes
 
-!mutelist
-Returns list of muted users in chat
+#muteuser[@username+id]
+Mute a user in SuoerGroup
++#muteuser[@username+id]remove mutelist+
 
-!banlist
-Returns SuperGroup ban list
+#mutelist
+SuperGroup muted user list
 
-!clean [rules|about|modlist|mutelist]
+#banlist
+SuperGroup ban list
 
-!del
-Deletes a message by reply
+#clean[rules+about+modlist+mutelist]
+Cleaned
 
-!public [yes|no]
-Set chat visibility in pm !chats or !chatlist commands
+#del
+Deletes a massage by reply
 
-!res [username]
-Returns users name and id by username
+#public[yes+no]
+Set SuoerGroup visibility in pm #chats or #chatlist commands
 
+#res[@username]
+Returns user name and id by @username
 
-!log
-Returns group logs
-*Search for kick reasons using [#RTL|#spam|#lockmember]
+#log
+Returns SuoerGroup logs
 
-**You can use "#", "!", or "/" to begin all commands
+#addword[text]
+Added the badword
++If the desired word is cleared+
 
-*Only owner can add members to SuperGroup
-(use invite link to invite)
+#badwords
+SuperGroup badword list
 
-*Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
+#rw[text]
+clear[text]from list badword
 
-*Only owner can use res, setowner, promote, demote, and log commands
+#clearbadwords
+Cleaned badword list
 
-channel:@WaderTGTeam
+#clantag[tag]
+Specifications clan a door clsh of clan
+
+#clanmembers[tag]
+Show give members clan
+
+#me
+Returns your specifications
+
+#tophoto
+Become stickers to photos
+
+#tosticker
+Turn photos into stikers
+
+#conv[text]
+Text to photos
+
+#sticker[text]
+Text-to-stickers
+
+#wai
+To show office user
+
+#voice[text]
+Text-to-voice
+
+*Only from markes "!","/","#" use*
+
+Channel:@WaderTGTeam
 ]],
   }
   serialize_to_file(config, './data/config.lua')
