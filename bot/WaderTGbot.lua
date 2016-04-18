@@ -573,10 +573,10 @@ Send SuperGroup link private
 #rules
 Chat the rules
 =========================
-#lock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+forward]
+#lock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+tgservice+forward]
 Lock SuoerGroup settings
 =========================
-#unlock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+forward]
+#unlock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+tgservice+forward]
 Unlock SuoerGroup settings
 =========================
 #mute[all+audio+gifs+photo+video+text+service]
