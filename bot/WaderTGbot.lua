@@ -482,186 +482,188 @@ will return group ban list
 channel:@WaderTGTeam
 ]],
 	help_text_super =[[
-WaderTG SuperGroup Commands:
-
+=========================
+WaderTG SuperGroup Commands :
+=========================
 #info
 About the SuperGroup info
-
+=========================
 #infull
 About the you infull
-
+=========================
 #admins
 SuperGroups admins list
-
+=========================
 #setadmin
 Set SuoerGroup admins
-
+=========================
 #owner
 Show owner of SuperGroup
-
+=========================
 #setowner
 Set the SuoerGroup owner
-
+=========================
 #modlist
 Show moderators list
-
+=========================
 #bots
 List bots in SuperGroup
-
+=========================
 #bot[lock,unlock]
 Bot[lock,unlock] the SuoerGroup
-
+=========================
 #who
 List all users in SuperGroup
-
+=========================
 #block
 kick a user from SuperGroup
 +Added user to blocked list+
-
+=========================
 #ban
 Ban user from the SuoerGroup
 +Only with[id+user]+
-
+=========================
 #unban
 Unban user from the SuoerGroup
 +Only with[id+user]+
-
+=========================
 #id
 SuperGroup ID or user ID
 +For user ID:#id @username or reply by: #id+
-
+=========================
 #id from
 Get ID of user massage is forwarded from
-
+=========================
 #kickme
 Kick you from SuoerGroup
-
+=========================
 #promote[@username+id]
 Promote a SuoerGroup moderator
-
+=========================
 #demote[@username+id]
 Demote a SuoerGroup moderator
-
+=========================
 #setname [group name]
 Set the chat name
-
+=========================
 #setphoto
 Set the chat photo
 +Then photo and send the+
-
+=========================
 #setrules[rules]
 Set the chat rules
-
+=========================
 #setabout
 Set the chat about
-
+=========================
 #save [value] <text>
 Set extra info for chat
-
+=========================
 #get[value]
 Retrieves extra info for chat by value
-
+=========================
 #newlink
 Create group link
-
+=========================
 #link
 Group the link
-
+=========================
 #linkpv
 Send SuperGroup link private
-
+=========================
 #rules
 Chat the rules
-
+=========================
 #lock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+forward]
 Lock SuoerGroup settings
-
+=========================
 #unlock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+forward]
 Unlock SuoerGroup settings
-
+=========================
 #mute[all+audio+gifs+photo+video+text+service]
 Mute SuoerGroup massage types
-
+=========================
 #unmute[all+audio+gifs+photo+video+text+service]
 Unmute SuoerGroup massage types
-
+=========================
 #setflood[value]
 Set[value] as flood sensitivity
-
+=========================
 #settins
 SuperGroup settings
-
+=========================
 #muteslist
 SuperGroup mutes
-
+=========================
 #muteuser[@username+id]
 Mute a user in SuoerGroup
 +#muteuser[@username+id]remove mutelist+
-
+=========================
 #mutelist
 SuperGroup muted user list
-
+=========================
 #banlist
 SuperGroup ban list
-
+=========================
 #clean[rules+about+modlist+mutelist]
 Cleaned
-
+=========================
 #del
 Deletes a massage by reply
-
+=========================
 #public[yes+no]
 Set SuoerGroup visibility in pm #chats or #chatlist commands
-
+=========================
 #res[@username]
 Returns user name and id by @username
-
+=========================
 #log
 Returns SuoerGroup logs
-
+=========================
 #addword[text]
 Added the badword
 +If the desired word is cleared+
-
+=========================
 #badwords
 SuperGroup badword list
-
+=========================
 #rw[text]
 clear[text]from list badword
-
+=========================
 #clearbadwords
 Cleaned badword list
-
+=========================
 #clantag[tag]
 Specifications clan a door clsh of clan
-
+=========================
 #clanmembers[tag]
 Show give members clan
-
+=========================
 #me
 Returns your specifications
-
+=========================
 #tophoto
 Become stickers to photos
-
+=========================
 #tosticker
 Turn photos into stikers
-
+=========================
 #conv[text]
 Text to photos
-
+=========================
 #sticker[text]
 Text-to-stickers
-
+=========================
 #wai
 To show office user
-
+=========================
 #voice[text]
 Text-to-voice
-
+=========================
 *Only from markes "!" , "/" , "#" use*
-
+=========================
 Channel:@WaderTGTeam
+=========================
 ]],
   }
   serialize_to_file(config, './data/config.lua')
