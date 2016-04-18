@@ -482,7 +482,6 @@ will return group ban list
 channel:@WaderTGTeam
 ]],
 	help_text_super =[[
-=========================
 WaderTG SuperGroup Commands :
 =========================
 #info
@@ -663,7 +662,6 @@ Text-to-voice
 *Only from markes "!" , "/" , "#" use*
 =========================
 Channel:@WaderTGTeam
-=========================
 ]],
   }
   serialize_to_file(config, './data/config.lua')
