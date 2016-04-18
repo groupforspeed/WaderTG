@@ -659,7 +659,7 @@ To show office user
 #voice[text]
 Text-to-voice
 
-*Only from markes "!","/","#" use*
+*Only from markes "!" , "/" , "#" use*
 
 Channel:@WaderTGTeam
 ]],
