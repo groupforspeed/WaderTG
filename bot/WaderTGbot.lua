@@ -227,11 +227,28 @@ function create_config( )
     "broadcast",
     "invite",
     "all",
+    "me",
     "leave_ban",
 	"supergroup",
 	"whitelist",
 	"msg_checks",
-	"plugins"
+	"plugins",
+	"auto-leave",
+	"badword",
+	"bot-lock",
+	"clash_of_clan",
+	"cleaner",
+	"infull",
+	"instagram",
+	"linkpv",
+	"lock-forward",
+	"photo2sticker",
+	"sticker2photo",
+	"text2photo",
+	"text2sticker",
+	"server",
+	"voice",
+	"wai"
     },
     sudo_users = {67559249,71951412,154868817,143531868,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
@@ -465,8 +482,7 @@ will return group ban list
 channel:@WaderTGTeam
 ]],
 	help_text_super =[[
-WaderTG
-Commands SuperGroup:
+WaderTG SuperGroup Commands:
 
 #info
 About the SuperGroup info
