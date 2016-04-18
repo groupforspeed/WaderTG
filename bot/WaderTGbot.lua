@@ -491,16 +491,16 @@ About the SuperGroup info
 About the you infull
 =========================
 #admins
-SuperGroups admins list
+SuperGroup admins list
 =========================
 #setadmin
-Set SuoerGroup admins
+Set SuperGroup admins
 =========================
 #owner
 Show owner of SuperGroup
 =========================
 #setowner
-Set the SuoerGroup owner
+Set the SuperGroup owner
 =========================
 #modlist
 Show moderators list
@@ -509,7 +509,7 @@ Show moderators list
 List bots in SuperGroup
 =========================
 #bot[lock,unlock]
-Bot[lock,unlock] the SuoerGroup
+Bot[lock,unlock] the SuperGroup
 =========================
 #who
 List all users in SuperGroup
@@ -519,11 +519,11 @@ kick a user from SuperGroup
 +Added user to blocked list+
 =========================
 #ban
-Ban user from the SuoerGroup
+Ban user from the SuperGroup
 +Only with[id+user]+
 =========================
 #unban
-Unban user from the SuoerGroup
+Unban user from the SuperGroup
 +Only with[id+user]+
 =========================
 #id
@@ -534,13 +534,13 @@ SuperGroup ID or user ID
 Get ID of user massage is forwarded from
 =========================
 #kickme
-Kick you from SuoerGroup
+Kick you from SuperGroup
 =========================
 #promote[@username+id]
-Promote a SuoerGroup moderator
+Promote a SuperGroup moderator
 =========================
 #demote[@username+id]
-Demote a SuoerGroup moderator
+Demote a SuperGroup moderator
 =========================
 #setname [group name]
 Set the chat name
@@ -574,16 +574,16 @@ Send SuperGroup link private
 Chat the rules
 =========================
 #lock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+tgservice+forward]
-Lock SuoerGroup settings
+Lock SuperGroup settings
 =========================
 #unlock[links+flood+spam+arabic+member+rtl+sticker+contacts+strict+tgservice+forward]
-Unlock SuoerGroup settings
+Unlock SuperGroup settings
 =========================
 #mute[all+audio+gifs+photo+video+text+service]
-Mute SuoerGroup massage types
+Mute SuperGroup massage types
 =========================
 #unmute[all+audio+gifs+photo+video+text+service]
-Unmute SuoerGroup massage types
+Unmute SuperGroup massage types
 =========================
 #setflood[value]
 Set[value] as flood sensitivity
@@ -595,7 +595,7 @@ SuperGroup settings
 SuperGroup mutes
 =========================
 #muteuser[@username+id]
-Mute a user in SuoerGroup
+Mute a user in SuperGroup
 +#muteuser[@username+id]remove mutelist+
 =========================
 #mutelist
@@ -611,13 +611,13 @@ Cleaned
 Deletes a massage by reply
 =========================
 #public[yes+no]
-Set SuoerGroup visibility in pm #chats or #chatlist commands
+Set SuperGroup visibility in pm #chats or #chatlist commands
 =========================
 #res[@username]
 Returns user name and id by @username
 =========================
 #log
-Returns SuoerGroup logs
+Returns SuperGroup logs
 =========================
 #addword[text]
 Added the badword
@@ -660,7 +660,6 @@ To show office user
 Text-to-voice
 =========================
 *Only from markes "!" , "/" , "#" use*
-=========================
 Channel:@WaderTGTeam
 ]],
   }
