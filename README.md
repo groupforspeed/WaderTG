@@ -249,11 +249,11 @@ cd WaderTG
 ./autolaunch.sh
 
 
-anti crash
+##anti crash
 
 tmux new-session -s script "bash steady.sh -t"
 
-new terminal
+##new terminal
 
 cd WaderTG
 screen ./launch.sh
