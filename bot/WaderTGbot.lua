@@ -233,7 +233,6 @@ function create_config( )
 	"whitelist",
 	"msg_checks",
 	"plugins",
-	"auto-leave",
 	"badword",
 	"bot-lock",
 	"clash_of_clan",
