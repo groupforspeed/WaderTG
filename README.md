@@ -241,12 +241,3 @@ cd $HOME
 cd WaderTG
 ./launchfix2.sh install
 ./autolaunch.sh
-
-# ANTI CRASH
-
-tmux new-session -s script "bash steady.sh -t"
-
-# NEW TERMINAL ANTI CRASH
-
-cd WaderTG
-screen ./launch.sh
