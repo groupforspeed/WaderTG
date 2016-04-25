@@ -634,8 +634,8 @@ Cleaned badword list
 #clantag[tag]
 Specifications clan a door clsh of clan
 =========================
-#clanmembers[tag]
-Show give members clan
+#music[truk name]
+Find songs to
 =========================
 #me
 Returns your specifications
