@@ -183,7 +183,7 @@ TeleSeed has several commands that are only usable at certain ranks.
 | <html>&#91;</html>#!/](un)lock sticker | Y| Y |
 | <html>&#91;</html>#!/]public [yes<html>&#124;</html>no] | Y | Y |
 | <html>&#91;</html>#!/](un)lock strict | N | Y |
-
+| <html>&#91;</html>#!/](un)lock contacts | N | Y |
 /lock [setting] and /unlock [setting]: sets allowed actions and content for groups/SuperGroups
 	***/lock strict*** in a supergroup, if strict is locked users will be kicked for violations of settings or mutes
 
