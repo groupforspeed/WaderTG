@@ -12,19 +12,19 @@ local function get_weather(location)
   local weather = json:decode(b)
   local city = weather.name
   local country = weather.sys.country
-  local temp = 'ط¯ظ…ط§غŒ ط´ظ‡ط± '..city..'\n\nًںŒ، ط¯ظ…ط§غŒ ع©ظ†ظˆظ†غŒ ظ‡ظˆط§ : '..weather.main.temp..' C\n\nظپط´ط§ط± ظ‡ظˆط§ :'..weather.main.pressure..'\nط±ط·ظˆط¨طھ ظ‡ظˆط§ : '..weather.main.humidity..' %\n\nًں”»ط­ط¯ط§ظ‚ظ„ ط¯ظ…ط§غŒ ط§ظ…ط±ظˆط² : '..weather.main.temp_min..'\nًں”؛ط­ط¯ط§ع©ط«ط± ط¯ظ…ط§غŒ ط§ظ…ط±ظˆط² : '..weather.main.temp_min..'\n\nًںŒ¬ ط³ط±ط¹طھ ط¨ط§ط¯ : '..weather.wind.speed..'\nط¯ط±ط¬ظ‡ ظˆط²ط´ ط¨ط§ط¯ : '..weather.wind.deg..'\n\nًں”¸ط·ظˆظ„ ط¬ط؛ط±ط§ظپغŒط§غŒغŒ : '..weather.coord.lon..'\nًں”¹ط¹ط±ط¶ ط¬ط؛ط±ط§ظپغŒط§غŒغŒ : '..weather.coord.lat
-  local conditions = 'ط´ط±ط§غŒط· ظپط¹ظ„غŒ ط¢ط¨ ظˆ ظ‡ظˆط§ : '
+  local temp = 'دمای شهر '..city..'\n\n🌡 دمای کنونی هوا : '..weather.main.temp..' C\n\nفشار هوا :'..weather.main.pressure..'\nرطوبت هوا : '..weather.main.humidity..' %\n\n🔻حداقل دمای امروز : '..weather.main.temp_min..'\n🔺حداکثر دمای امروز : '..weather.main.temp_min..'\n\n🌬 سرعت باد : '..weather.wind.speed..'\nدرجه وزش باد : '..weather.wind.deg..'\n\n🔸طول جغرافیایی : '..weather.coord.lon..'\n🔹عرض جغرافیایی : '..weather.coord.lat
+  local conditions = 'شرایط فعلی آب و هوا : '
 
   if weather.weather[1].main == 'Clear' then
-    conditions = conditions .. 'ط¢ظپطھط§ط¨غŒ âک€'
+    conditions = conditions .. 'آفتابی ☀'
   elseif weather.weather[1].main == 'Clouds' then
-    conditions = conditions .. 'ط§ط¨ط±غŒ âکپâکپ'
+    conditions = conditions .. 'ابری ☁☁'
   elseif weather.weather[1].main == 'Rain' then
-    conditions = conditions .. 'ط¨ط§ط±ط§ظ†غŒ âک”'
+    conditions = conditions .. 'بارانی ☔'
   elseif weather.weather[1].main == 'Thunderstorm' then
-    conditions = conditions .. 'ط·ظˆظپط§ظ†غŒ ًںŒھًںŒھًںŒھًںŒھ'
+    conditions = conditions .. 'طوفانی 🌪🌪🌪🌪'
   elseif weather.weather[1].main == 'Mist' then
-    conditions = conditions .. 'ظ…ظ‡ ًںŒ«'
+    conditions = conditions .. 'مه 🌫'
   end
 
   return temp .. '\n\n' .. conditions..'\n\n@WaderTGTeam'
@@ -33,7 +33,7 @@ local function run(msg, matches)
     city = matches[1]
   local wtext = get_weather(city)
   if not wtext then
-    wtext = 'ظ…ع©ط§ظ† ظˆط§ط±ط¯ ط´ط¯ظ‡ طµط­غŒط­ ظ†غŒط³طھ'
+    wtext = 'مکان وارد شده صحیح نیست'
   end
   return wtext
 end
@@ -44,3 +44,4 @@ return {
    "^[/#!]weather (.*)$",
     },
   run = run
+}
