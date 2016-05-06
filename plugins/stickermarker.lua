@@ -62,3 +62,4 @@ return {
        "^[/!#]sticker +(.*)$",
        },
    run = run
+}
