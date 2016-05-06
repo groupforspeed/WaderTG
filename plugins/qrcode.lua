@@ -76,3 +76,4 @@ return {
     "^[!/#][Qq]rcode (.+)$"
   },
   run = run
+}
