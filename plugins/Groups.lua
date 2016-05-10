@@ -4,7 +4,7 @@ local function chat_list(msg)
         if not data[tostring(groups)] then
                 return 'No groups at the moment'
         end
-        local message = 'List Groups WaderTG:\n\n '
+        local message = 'List Groups WaderTG:\n*Use #join [ID-CHAT] to join\n*Use #link [ID-CHAT] send link chat\n\n '
         for k,v in pairs(data[tostring(groups)]) do
                 local settings = data[tostring(v)]['settings']
                 for m,n in pairsByKeys(settings) do
@@ -13,7 +13,7 @@ local function chat_list(msg)
                         end
                 end
 
-                message = message .. '👥 '.. name .. ' (ID: ' .. v .. ')\n\n '
+                message = message .. 'ًں‘¥ '.. name .. ' (ID: ' .. v .. ')\n\n '
         end
         local file = io.open("./groups/lists/listed_groups.txt", "w")
         file:write(message)
