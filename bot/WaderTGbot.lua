@@ -652,7 +652,7 @@ Text to photos
 #sticker[text]
 Text-to-stickers
 =========================
-#wai
+#office
 To show office user
 =========================
 #voice[text]
